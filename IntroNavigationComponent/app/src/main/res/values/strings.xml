@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Intro Navigation Component</string>
+    <string name="btn_modo_de_juego">MODO DE JUEGO</string>
+    <string name="btn_iniciar">INICIAR</string>
+    <string name="tv_juego_de_navegacion">JUEGO DE NAVEGACIÓN</string>
+    <string name="btn_iniciar_sesion">INICIAR SESIÓN</string>
+    <string name="btn_aceptar">ACEPTAR</string>
+    <string name="textInputLayout_usuario">Usuario</string>
+    <string name="textInputLayout_contrasenia">Contraseña</string>
+    <string name="btn_salir">SALIR</string>
 </resources>
