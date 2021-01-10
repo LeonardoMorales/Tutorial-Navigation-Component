@@ -1,4 +1,4 @@
-package com.example.viewbinding
+package com.dev.leonardom.intronavigationcomponent
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

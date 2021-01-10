@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <dialog
+        android:id="@+id/gameModeDialog"
+        android:name="com.dev.leonardom.intronavigationcomponent.GameModeDialog"
+        android:label="GameModeDialog" />
+
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.dev.leonardom.intronavigationcomponent.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" >
+
+        <action
+            android:id="@+id/action_gameFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.dev.leonardom.intronavigationcomponent.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" >
+
+        <action
+            android:id="@+id/action_startFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+
+        <action
+            android:id="@+id/action_startFragment_to_gameModeDialog"
+            app:destination="@id/gameModeDialog" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.dev.leonardom.intronavigationcomponent.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+
+        <action
+            android:id="@+id/action_welcomeFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+
+    </fragment>
+
+</navigation>
