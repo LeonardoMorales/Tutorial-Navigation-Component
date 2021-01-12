@@ -13,6 +13,8 @@ class StartFragment : Fragment() {
     private var _binding: FragmentStartBinding? = null
     private val binding get() = _binding!!
 
+    private var mOpcionSeleccionada = ""
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -26,13 +28,37 @@ class StartFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.btnGameMode.setOnClickListener {
-            findNavController().navigate(R.id.action_startFragment_to_gameModeDialog)
+            val action = StartFragmentDirections.actionStartFragmentToGameModeDialog()
+            findNavController().navigate(action)
         }
 
 
         binding.btnLogin.setOnClickListener {
-            findNavController().navigate(R.id.action_startFragment_to_gameFragment)
+            iniciarSesion()
         }
+
+        observarSuscriptores()
+    }
+
+    private fun iniciarSesion() {
+        val usuario = binding.textInputEditTextUsuario.text.toString()
+        val contra = binding.textInputEditTextContrasena.text.toString()
+        val modoJuego = mOpcionSeleccionada
+
+        val login = Login(modoJuego, usuario, contra)
+
+        val action = StartFragmentDirections.actionStartFragmentToGameFragment(login)
+        findNavController().navigate(action)
+    }
+
+    private fun observarSuscriptores() {
+        findNavController()
+                .currentBackStackEntry
+                ?.savedStateHandle
+                ?.getLiveData("gameModeKey", "")
+                ?.observe(viewLifecycleOwner){ result ->
+                    mOpcionSeleccionada = result
+                }
     }
 
     override fun onDestroyView() {

@@ -26,7 +26,8 @@ class WelcomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.btnIniciar.setOnClickListener {
-            findNavController().navigate(R.id.action_welcomeFragment_to_startFragment)
+            val action = WelcomeFragmentDirections.actionWelcomeFragmentToStartFragment()
+            findNavController().navigate(action)
         }
 
     }

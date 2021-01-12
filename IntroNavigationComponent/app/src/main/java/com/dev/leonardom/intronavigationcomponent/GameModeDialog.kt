@@ -4,6 +4,7 @@ import android.app.Dialog
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.DialogFragment
+import androidx.navigation.fragment.findNavController
 
 class GameModeDialog: DialogFragment() {
 
@@ -20,7 +21,8 @@ class GameModeDialog: DialogFragment() {
                     optionSelected = gameModeOptions[posicion]
                 }
                 .setPositiveButton("ACEPTAR") { dialog, id ->
-
+                    findNavController().previousBackStackEntry?.savedStateHandle?.set("gameModeKey", optionSelected)
+                    dialog.dismiss()
                 }
                 .setNegativeButton("CANCELAR"){ dialog, id ->
                     dialog.dismiss()

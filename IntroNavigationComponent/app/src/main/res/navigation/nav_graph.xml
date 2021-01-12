@@ -22,6 +22,10 @@
             app:popUpTo="@id/welcomeFragment"
             app:popUpToInclusive="true" />
 
+        <argument
+            android:name="login"
+            app:argType="com.dev.leonardom.intronavigationcomponent.Login" />
+
     </fragment>
 
     <fragment

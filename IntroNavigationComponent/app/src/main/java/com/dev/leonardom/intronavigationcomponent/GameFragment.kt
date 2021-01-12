@@ -6,12 +6,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import androidx.navigation.fragment.navArgs
 import com.dev.leonardom.intronavigationcomponent.databinding.FragmentGameBinding
 
 class GameFragment : Fragment() {
 
     private var _binding: FragmentGameBinding? = null
     private val binding get() = _binding!!
+
+    private val args: GameFragmentArgs by navArgs()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -25,8 +28,11 @@ class GameFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        binding.tvDatosUsuario.text = args.login.toString()
+
         binding.btnSalir.setOnClickListener {
-            findNavController().navigate(R.id.action_gameFragment_to_welcomeFragment)
+            val action = GameFragmentDirections.actionGameFragmentToWelcomeFragment()
+            findNavController().navigate(action)
         }
 
     }
