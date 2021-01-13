@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Navigation Component</string>
+    <string name="tv_primer_fragment">Primer Fragment</string>
+    <string name="tv_segundo_fragment">Segundo Fragment</string>
+    <string name="tv_tercer_fragment">Tercer Fragment</string>
+    <string name="tv_cuarto_fragment">Cuarto Fragment</string>
+    <string name="btn_global_action">Global Action</string>
+    <string name="btn_deep_link">Deep Link</string>
+</resources>
