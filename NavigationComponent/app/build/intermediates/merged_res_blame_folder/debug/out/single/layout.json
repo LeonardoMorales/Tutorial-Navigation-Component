@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_cuarto.xml",
+        "source": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\src\\main\\res\\layout\\fragment_cuarto.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_primer.xml",
+        "source": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\src\\main\\res\\layout\\fragment_primer.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_tercero.xml",
+        "source": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\src\\main\\res\\layout\\fragment_tercero.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_segundo.xml",
+        "source": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\src\\main\\res\\layout\\fragment_segundo.xml"
+    }
+]

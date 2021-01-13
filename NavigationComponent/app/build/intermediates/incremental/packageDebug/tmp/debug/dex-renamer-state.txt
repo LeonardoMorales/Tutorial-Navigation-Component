@@ -1,0 +1,4 @@
+#Tue Jan 12 18:30:59 CST 2021
+base.0=D\:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
