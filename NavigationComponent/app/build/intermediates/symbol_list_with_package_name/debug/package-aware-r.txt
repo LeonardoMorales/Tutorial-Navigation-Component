@@ -1740,6 +1740,7 @@ id content
 id contentPanel
 id coordinator
 id cos
+id cuartoFragment
 id custom
 id customPanel
 id cut
@@ -1855,7 +1856,9 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id navHostFragment
 id nav_controller_view_tag
+id nav_graph
 id nav_host_fragment_container
 id navigation_header_container
 id never
@@ -1882,6 +1885,7 @@ id percent
 id pin
 id position
 id postLayout
+id primerFragment
 id progress_circular
 id progress_horizontal
 id radio
@@ -1913,6 +1917,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id segundoFragment
 id select_dialog_listview
 id selected
 id shortcut
@@ -1955,6 +1960,7 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id tercerFragment
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -1978,6 +1984,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolbar
 id top
 id topPanel
 id touch_outside
@@ -2137,8 +2144,10 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu top_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
+navigation nav_graph
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
