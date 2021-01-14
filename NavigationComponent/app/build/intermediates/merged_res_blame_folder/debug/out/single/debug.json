@@ -140,6 +140,10 @@
         "source": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\src\\main\\res\\anim\\slide_out_left.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\build\\intermediates\\res\\merged\\debug\\menu_main_menu.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },

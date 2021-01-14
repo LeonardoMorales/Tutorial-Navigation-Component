@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/primerFragment"
+        android:title="Fragment 1"
+        android:icon="@drawable/ic_baseline_filter_1"/>
+
+    <item
+        android:id="@+id/segundoFragment"
+        android:title="Fragment 2"
+        android:icon="@drawable/ic_baseline_filter_2"/>
+
+</menu>

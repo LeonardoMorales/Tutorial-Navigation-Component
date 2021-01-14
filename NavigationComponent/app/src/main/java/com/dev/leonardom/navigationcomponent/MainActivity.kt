@@ -7,8 +7,7 @@ import android.view.MenuItem
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
-import androidx.navigation.ui.onNavDestinationSelected
-import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.*
 import com.dev.leonardom.navigationcomponent.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -16,23 +15,34 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     private lateinit var navController: NavController
+    private lateinit var appBarConfiguration: AppBarConfiguration
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        appBarConfiguration = AppBarConfiguration(
+            setOf(
+                R.id.primerFragment,
+                R.id.segundoFragment
+            )
+        )
+
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.navHostFragment) as NavHostFragment
         navController = navHostFragment.findNavController()
 
         //Toolbar
         setSupportActionBar(binding.toolbar)
-        setupActionBarWithNavController(navController)
+        setupActionBarWithNavController(navController, appBarConfiguration)
+
+        //Bottom Navigation
+        binding.bottomNavigationView.setupWithNavController(navController)
 
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        return navController.navigateUp() || super.onSupportNavigateUp()
+        return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

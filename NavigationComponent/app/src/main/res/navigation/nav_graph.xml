@@ -8,24 +8,24 @@
     <fragment
         android:id="@+id/primerFragment"
         android:name="com.dev.leonardom.navigationcomponent.PrimerFragment"
-        android:label="fragment_primer"
+        android:label="Primer Fragmento"
         tools:layout="@layout/fragment_primer" />
 
     <fragment
         android:id="@+id/segundoFragment"
         android:name="com.dev.leonardom.navigationcomponent.SegundoFragment"
-        android:label="fragment_segundo"
+        android:label="Segundo Fragmento"
         tools:layout="@layout/fragment_segundo" />
 
     <fragment
         android:id="@+id/tercerFragment"
         android:name="com.dev.leonardom.navigationcomponent.TercerFragment"
-        android:label="fragment_tercero"
+        android:label="Tercer Fragmento"
         tools:layout="@layout/fragment_tercero" />
 
     <fragment
         android:id="@+id/cuartoFragment"
         android:name="com.dev.leonardom.navigationcomponent.CuartoFragment"
-        android:label="fragment_cuarto"
+        android:label="Cuarto Fragmento"
         tools:layout="@layout/fragment_cuarto" />
 </navigation>
