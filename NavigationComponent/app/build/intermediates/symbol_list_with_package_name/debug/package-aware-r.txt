@@ -1769,6 +1769,7 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
+id drawerLayout
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -1858,6 +1859,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
 id navHostFragment
+id navView
 id nav_controller_view_tag
 id nav_graph
 id nav_host_fragment_container
@@ -2121,6 +2123,7 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout nav_header
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header.xml",
+        "source": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\src\\main\\res\\layout\\nav_header.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
         "source": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\src\\main\\res\\layout\\activity_main.xml"
     },

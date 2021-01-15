@@ -188,6 +188,10 @@
         "source": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_filter_3.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\src\\main\\res\\layout\\nav_header.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },

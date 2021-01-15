@@ -26,7 +26,8 @@ class MainActivity : AppCompatActivity() {
             setOf(
                 R.id.primerFragment,
                 R.id.segundoFragment
-            )
+            ),
+            binding.drawerLayout
         )
 
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.navHostFragment) as NavHostFragment
@@ -38,6 +39,9 @@ class MainActivity : AppCompatActivity() {
 
         //Bottom Navigation
         binding.bottomNavigationView.setupWithNavController(navController)
+
+        // DrawerLayout
+        binding.navView.setupWithNavController(navController)
 
     }
 
