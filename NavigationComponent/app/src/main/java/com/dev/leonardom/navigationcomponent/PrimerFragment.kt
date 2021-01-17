@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.dev.leonardom.navigationcomponent.databinding.FragmentPrimerBinding
 
 class PrimerFragment : Fragment() {
@@ -23,6 +24,11 @@ class PrimerFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        binding.btnGlobalAction.setOnClickListener {
+            val action = NavGraphDirections.actionGlobalCuartoFragment()
+            findNavController().navigate(action)
+        }
 
     }
 

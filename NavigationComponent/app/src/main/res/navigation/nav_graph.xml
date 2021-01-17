@@ -28,4 +28,9 @@
         android:name="com.dev.leonardom.navigationcomponent.CuartoFragment"
         android:label="Cuarto Fragmento"
         tools:layout="@layout/fragment_cuarto" />
+
+    <action
+        android:id="@+id/action_global_cuartoFragment"
+        app:destination="@id/cuartoFragment"/>
+
 </navigation>

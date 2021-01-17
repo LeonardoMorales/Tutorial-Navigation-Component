@@ -6,6 +6,8 @@ com/dev/leonardom/navigationcomponent/BuildConfig.java
  com.dev.leonardom.navigationcomponent.BuildConfig
 com/dev/leonardom/navigationcomponent/databinding/FragmentPrimerBinding.java
  com.dev.leonardom.navigationcomponent.databinding.FragmentPrimerBinding
+com/dev/leonardom/navigationcomponent/databinding/NavHeaderBinding.java
+ com.dev.leonardom.navigationcomponent.databinding.NavHeaderBinding
 com/dev/leonardom/navigationcomponent/databinding/ActivityMainBinding.java
  com.dev.leonardom.navigationcomponent.databinding.ActivityMainBinding
 com/dev/leonardom/navigationcomponent/databinding/FragmentTerceroBinding.java

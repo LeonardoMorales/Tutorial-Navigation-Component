@@ -1683,6 +1683,7 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
+id action_global_cuartoFragment
 id action_image
 id action_menu_divider
 id action_menu_presenter
