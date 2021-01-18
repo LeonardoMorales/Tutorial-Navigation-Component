@@ -6,12 +6,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import androidx.navigation.fragment.navArgs
 import com.dev.leonardom.navigationcomponent.databinding.FragmentTerceroBinding
 
 class TercerFragment : Fragment() {
 
     private var _binding: FragmentTerceroBinding? = null
     private val binding get() = _binding!!
+
+    private val args: TercerFragmentArgs by navArgs()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -28,6 +31,10 @@ class TercerFragment : Fragment() {
         binding.btnGlobalAction.setOnClickListener {
             val action = NavGraphDirections.actionGlobalCuartoFragment()
             findNavController().navigate(action)
+        }
+
+        args.texto?.let {
+            binding.tvTitulo.text = it
         }
 
     }

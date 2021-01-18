@@ -1714,7 +1714,6 @@ id blocking
 id bottom
 id bottomNavigationView
 id bounce
-id btn_deepLink
 id btn_globalAction
 id buttonPanel
 id cache_measures
@@ -1750,6 +1749,7 @@ id date_picker_actions
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
+id deepLink
 id default_activity_button
 id deltaRelative
 id dependency_ordering

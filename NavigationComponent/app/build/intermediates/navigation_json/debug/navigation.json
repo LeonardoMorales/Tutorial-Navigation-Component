@@ -2,6 +2,33 @@
   {
     "name": "nav_graph",
     "navigationXmlIds": [],
-    "deepLinks": []
+    "deepLinks": [
+      {
+        "schemes": [
+          "http",
+          "https"
+        ],
+        "host": "www.componentenav.dev",
+        "port": -1,
+        "path": "/.*",
+        "sourceFilePosition": {
+          "mSourceFile": {
+            "mSourceFile": {
+              "path": "D:\\AndroidStudioProjects\\TutorialNavigationComponent\\NavigationComponent\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+            },
+            "mDescription": "nav_graph"
+          },
+          "mSourcePosition": {
+            "mStartLine": 25,
+            "mStartColumn": 8,
+            "mStartOffset": 1002,
+            "mEndLine": 27,
+            "mEndColumn": 54,
+            "mEndOffset": 1107
+          }
+        },
+        "isAutoVerify": false
+      }
+    ]
   }
 ]

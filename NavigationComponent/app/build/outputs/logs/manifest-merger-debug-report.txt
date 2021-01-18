@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-22:12
 MERGED from [androidx.databinding:viewbinding:4.1.1] C:\Users\leona\.gradle\caches\transforms-2\files-2.1\9add5d775da135dd49082ba631b3ac18\jetified-viewbinding-4.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.2] C:\Users\leona\.gradle\caches\transforms-2\files-2.1\dc38711550f81f23f431b9a0b8abcaa7\navigation-fragment-ktx-2.3.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.2.5] C:\Users\leona\.gradle\caches\transforms-2\files-2.1\aff6b9b189533e67a2bb73851b2d7df8\jetified-fragment-ktx-1.2.5\AndroidManifest.xml:17:1-24:12
@@ -48,25 +48,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\leona\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\leona\.gradle\caches\transforms-2\files-2.1\5bad58fed49503834bcb7778444163d8\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\leona\.gradle\caches\transforms-2\files-2.1\d54b1e1a7f5f51df407f964db1685795\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\leona\.gradle\caches\transforms-2\files-2.1\139dd713697991e78371aa7203510e73\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:3:5-52
 		INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml
 		INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml
-		ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-22:12
 		INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml
-		ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:1-22:12
 		INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:5:5-20:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\leona\.gradle\caches\transforms-2\files-2.1\6927ee2c7c83df57add1b0afde3e1a15\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\leona\.gradle\caches\transforms-2\files-2.1\6927ee2c7c83df57add1b0afde3e1a15\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\leona\.gradle\caches\transforms-2\files-2.1\83ee536ff85059f31aed7ca0e988de80\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -90,7 +90,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\le
 	android:theme
 		ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:11:9-57
 activity#com.dev.leonardom.navigationcomponent.MainActivity
-ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:12:9-19:20
 	android:name
 		ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
@@ -103,6 +103,11 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:16:27-74
+nav-graph
+ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:18:13-63
+CONVERTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:18:13-63
+	android:value
+		ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:18:24-61
 uses-sdk
 INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml
@@ -205,3 +210,29 @@ INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationCom
 		INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml
 		ADDED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml
 		INJECTED from D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:www.componentenav.dev+data:pathPrefix:/+data:scheme:http+data:scheme:https
+ADDED from [nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+action#android.intent.action.VIEW
+ADDED from [nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+	android:name
+		ADDED from [nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+category#android.intent.category.DEFAULT
+ADDED from [nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+	android:name
+		ADDED from [nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+category#android.intent.category.BROWSABLE
+ADDED from [nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+	android:name
+		ADDED from [nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+data
+ADDED from [nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+ADDED from [nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+ADDED from [nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+ADDED from [nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+	android:host
+		ADDED from [nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+	android:scheme
+		ADDED from [nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+		ADDED from [nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+	android:pathPrefix
+		ADDED from [nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55

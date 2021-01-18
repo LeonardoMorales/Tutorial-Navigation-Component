@@ -21,7 +21,19 @@
         android:id="@+id/tercerFragment"
         android:name="com.dev.leonardom.navigationcomponent.TercerFragment"
         android:label="Tercer Fragmento"
-        tools:layout="@layout/fragment_tercero" />
+        tools:layout="@layout/fragment_tercero">
+
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="www.componentenav.dev/{texto}" />
+
+        <argument
+            android:name="texto"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+
+    </fragment>
 
     <fragment
         android:id="@+id/cuartoFragment"

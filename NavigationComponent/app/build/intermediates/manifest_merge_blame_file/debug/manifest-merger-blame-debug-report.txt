@@ -11,7 +11,7 @@
 9-->D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:5:5-19:19
+11-->D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:5:5-20:19
 12        android:allowBackup="true"
 12-->D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,7 +29,7 @@
 20        android:theme="@style/Theme.NavigationComponent" >
 20-->D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:11:9-57
 21        <activity android:name="com.dev.leonardom.navigationcomponent.MainActivity" >
-21-->D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:12:9-18:20
+21-->D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:12:9-19:20
 21-->D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:12:19-47
 22            <intent-filter>
 22-->D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:13:13-17:29
@@ -41,7 +41,33 @@
 25-->D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:16:17-77
 25-->D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\AndroidManifest.xml:16:27-74
 26            </intent-filter>
-27        </activity>
-28    </application>
+27            <intent-filter>
+27-->[nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+28                <action android:name="android.intent.action.VIEW" />
+28-->[nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+28-->[nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
 29
-30</manifest>
+30                <category android:name="android.intent.category.DEFAULT" />
+30-->[nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+30-->[nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+31                <category android:name="android.intent.category.BROWSABLE" />
+31-->[nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+31-->[nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+32
+33                <data android:scheme="http" />
+33-->[nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+33-->[nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+34                <data android:scheme="https" />
+34-->[nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+34-->[nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+35                <data android:host="www.componentenav.dev" />
+35-->[nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+35-->[nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+36                <data android:pathPrefix="/" />
+36-->[nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+36-->[nav_graph] D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\D:\AndroidStudioProjects\TutorialNavigationComponent\NavigationComponent\app\src\main\res\navigation\nav_graph.xml:26:9-28:55
+37            </intent-filter>
+38        </activity>
+39    </application>
+40
+41</manifest>
